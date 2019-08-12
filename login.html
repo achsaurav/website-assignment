@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>LogIn</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<div class="First">
+		<br><h1 class="text-center text-success">LogIn</h1><br><hr/>
+		<div class="col-lg-8 m-auto d-block">
+
+			<form class="bg-light " onsubmit="return validation()">
+
+
+				<div class="form">
+					<br><label>Email: </label><br>
+					<input type="text" name="username" id="email" class="form-control" autocomplete="off">
+					<span id="emails" class="text-danger font-weight-bold"> </span>
+				</div>
+
+
+				<div class="form">
+					<br><label>Password: </label><br>
+					<input type="text" name="username" id="pass" class="form-control" autocomplete="off">
+					<span id="passid" class="text-danger font-weight-bold"> </span>
+				</div>
+
+
+				<br><input type="submit" name="submit" value="login" class="btn btn-success"><hr/>
+							
+
+			</form>
+			<br><h5 class="text-center">OR LOGIN USING</h5>
+			<h5 class="btn col-lg-3 m-left d-block btn-dark"><a href="https://www.facebook.com/login/device-based/regular/login/?login_attempt=1&lwv=110">  Facebook</a></h5>
+			
+
+
+			<h5 class=" btn col-lg-3 m-left d-block btn-warning"><a href="https://accounts.google.com/signin/v2/identifier?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin">  Google Plus</a></h5>
+			<text>Don't have an account? <a href="signup.html">Sign Up</a><text><br>
+
+			<text><a href="forgot.html">  Forgot Password?</a></text>
+		</div>
+
+	</div>
+
+</body>
+</html>
