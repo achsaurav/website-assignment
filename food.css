@@ -1,0 +1,239 @@
+html,body{
+	height: 100%
+}
+
+header{
+	background-image: url(food.jpg);
+	height: 100vh;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+form{
+	width: 1000px;
+	margin: auto;
+	margin-top: 250px;
+}
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.header{
+	width: 100%;
+	height:7%;
+	display: block;
+	background-color: white;
+	color: red;
+	position: fixed;
+	top: 0;
+}
+.co-header{
+	text-align: right;
+	margin-right: 50px;
+	font-size: 30px;
+}
+.hh{
+	margin-left: 50px;
+	font-size: 15px;
+}
+.search{
+	width: 80%;
+	font-size: 18px;
+	padding: 10px;
+
+}
+.submit{
+	width: 15%;
+	padding: 10px;
+	font-size: 17px;
+	background-color: #333399;
+	color: white;
+
+}
+
+.submit1{
+	width: 10%;
+	padding: 10px;
+	font-size: 15px;
+	background-color: red;
+	color: white;
+	margin-bottom: 2px;
+}
+.submit2{
+	width: 10%;
+	padding: 10px;
+	font-size: 15px;
+	background-color: green;
+	color: white;
+	margin-bottom: 2px;
+}
+
+.ist{
+	max-width: 600px;
+	margin: 0 auto 20px;
+	margin-top: 50px;
+	font-size: 30px;
+	color: gray;
+	text-align: center;
+
+}
+.footer{
+	height: 275px;
+	color: black;
+	background-color: lightgray;
+	position: relative;
+}
+.footer .footer-content{
+	
+	height: 275px;
+	display: flex;
+}
+.page{
+	min-height: 100%;
+}
+.footer .footer-content .footer-section{
+	flex: 1;
+	
+	padding: 25px;
+}
+.footer .footer-content .foodlike ul {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 20px;
+	
+
+}
+.footer .footer-content .gethelp ul{
+	display: block;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+.footer .footer-content .call ul{
+	display: block;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+.sec{
+	margin-left: 45px;
+}
+.did{
+	border: 1px solid red;
+	width: 90%;
+	height: 20%;
+	margin-left: 45px;
+	
+}
+.imm{
+	width: 100%;
+	height: 100%;
+	
+}
+.part{
+	color: black;
+	background-color: lightgray;
+	position: relative;
+	margin-left: 45px;
+	width: 90%;
+	height: 20%;
+}
+.part .part-content{
+	border: 1px solid red;
+	height: 130px;
+	display: flex;
+}
+.part .part-content .part-section{
+	flex: 1;
+	border: 20px solid white;
+	padding: 25px;
+
+}
+.aaa{
+	width: 100%;
+	height: 100%;
+}
+.sss{
+	/*background-color: lightgray;
+	width: 100%;
+	height: 150px;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
+/*.ppp{
+	
+	background-color: blue;
+	
+	
+	box-sizing: border-box;
+
+}*/
+/*@media screen and (max-width: 1200px){
+	.ppp{
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.ppp{
+		width: 90%;
+	}
+}*/
+.mmm{
+	width: 252px;
+	height: 150px;
+	margin-left: 10px;
+}
+.ooo{
+	width: 252px;
+	height: 150px;
+	
+}
+.qqq{
+	width: 252px;
+	height: 150px;
+	
+}
+.rrr{
+	width: 252px;
+	height: 150px;
+	margin-right: 50px;
+	
+}
+.ll{
+
+	font-size: 18px;
+	margin-left: 45px;
+}
+/*a:hover{
+
+	transform: scale(1.1);
+}*/
+.zzz{
+	width: 252px;
+	height: 150px;
+	margin-left: 10px;
+}
+.xxx{
+	width: 252px;
+	height: 150px;
+	margin-right: 680px;
+}
+.last{
+	text-align: center;
+}
+.null{
+	text-align: center;
+	font-size: 37px;
+	margin-top: 100px;
+}
+.bbb{
+	height: 100%;
+	width: 10%;
+	margin-left: 130px;
+	position: absolute;
+}
